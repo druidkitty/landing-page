@@ -13,8 +13,19 @@ img {
     max-width: 100%;
 }
 
+.hero {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+}
+
 .header {
     background-color: #1F2937;
+    color: white;
 }
 
 .footer {
