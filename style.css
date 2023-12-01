@@ -78,10 +78,11 @@ img {
     font-weight: 900;
 }
 
-
-.footer,
-.footer-text {
+.footer {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #1F2937;
     color: white;
-    text-align: center;
 }
