@@ -27,16 +27,16 @@ body {
 .logo {
     font-size: 24px;
     font-weight: 900;
+    padding-right: 200px;
 }
 
 a,
 .links {
     display: flex;
-    gap: 16px;
     text-decoration: none;
     color: white;
     font-size: 18px;
-    margin-left: 80px;
+    gap: 16px;
 }
 
 .section1 {
