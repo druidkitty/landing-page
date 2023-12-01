@@ -24,10 +24,12 @@ body {
     padding-top: 20px;
 }
 
-a {
+a,
+.links {
+    display: flex;
+    gap: 16px;
     text-decoration: none;
     color: white;
-
 }
 
 .logo {
@@ -65,6 +67,8 @@ img {
     align-self: center;
     margin: auto;
     margin-left: 50px;
+    flex-grow: 0;
+
 }
 
 .hero {
