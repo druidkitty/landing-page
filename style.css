@@ -17,7 +17,16 @@ body {
     background-color: #1F2937;
     color: white;
     display: flex;
-    flex-direction: column;
+}
+
+.header {
+    justify-content: space-evenly;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
 }
 
 .logo {
@@ -25,10 +34,8 @@ body {
     font-weight: 900;
 }
 
-a {
-    text-decoration: none;
-    color: white;
-
+.section1 {
+    min-height: 500px;
 }
 
 button {
@@ -44,9 +51,14 @@ button {
     font-weight: bold;
 }
 
+.text-box {
+    align-items: center;
+}
+
 img {
     display: block;
-    max-width: 500px;
+    max-width: 450px;
+    align-self: center;
 }
 
 .hero {
