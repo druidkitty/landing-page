@@ -21,6 +21,7 @@ body {
 
 .header {
     justify-content: space-evenly;
+    padding-top: 20px;
 }
 
 a {
@@ -53,12 +54,17 @@ button {
 
 .text-box {
     align-items: center;
+    margin: auto;
+    width: 400px;
+    margin-right: 50px;
 }
 
 img {
     display: block;
-    max-width: 450px;
+    max-width: 500px;
     align-self: center;
+    margin: auto;
+    margin-left: 50px;
 }
 
 .hero {
