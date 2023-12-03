@@ -17,6 +17,11 @@ body {
     justify-content: space-between;
 }
 
+p, h1 {
+    margin: 0;
+    padding: 0;
+}
+
 .header,
 .section1 {
     background-color: #1F2937;
@@ -55,10 +60,11 @@ a,
     text-align: center;
     display: inline-block;
     padding: 10px 24px;
-    width: 100px;
-    font-size: 14px;
+    width: 120px;
+    font-size: 18px;
     border-radius: 8px;
     font-weight: bold;
+    margin-top: 18px;
 }
 
 .text-box {
@@ -139,7 +145,7 @@ quote {
 .box {
     background-color: #3882F6;
     color: white;
-    border-radius: 4px;
+    border-radius: 8px;
     width: 1025px;
     padding-left: 180px;
     padding-top: 20px;
@@ -151,10 +157,12 @@ quote {
 .box-text1 {
     font-size: 25px;
     font-weight: bold;
+    padding-top: 25px;
 }
 
 .box-text2 {
     font-size: 18px;
+    padding-bottom: 25px;
 }
 
 .button2 {
