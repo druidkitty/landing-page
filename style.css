@@ -142,10 +142,10 @@ quote {
     border-radius: 4px;
     width: 1025px;
     padding-left: 180px;
-    padding-top: 20px;
-    padding-bottom: 20px;
     display: flex;
     align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .box-text1 {
