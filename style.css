@@ -48,7 +48,7 @@ a,
     min-height: 500px;
 }
 
-button {
+.button1 {
     background-color: #3882F6;
     border: none;
     color: white;
@@ -130,13 +130,46 @@ quote {
 }
 
 .section4 {
+    display: flex;
+    min-height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
     background-color: #3882F6;
     color: white;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    width: 900px;
     border-radius: 4px;
+    width: 1000px;
+    justify-content: center;
+    padding-left: 200px;
+    display: flex;
+    flex-direction: column;
 }
+
+.box-text1 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.box-text2 {
+    font-size: 18px;
+}
+
+.button2 {
+    background-color: #3882F6;
+    border: solid white;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    padding: 8px;
+    width: 120px;
+    font-size: 16px;
+    border-radius: 8px;
+    font-weight: bold;
+
+}
+
 
 .footer {
     height: 100px;
