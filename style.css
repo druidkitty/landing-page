@@ -145,6 +145,7 @@ quote {
 .box {
     background-color: #3882F6;
     color: white;
+<<<<<<< HEAD
     border-radius: 8px;
     width: 1025px;
     padding-left: 180px;
@@ -152,6 +153,15 @@ quote {
     padding-bottom: 20px;
     display: flex;
     align-items: center;
+=======
+    border-radius: 4px;
+    width: 1025px;
+    padding-left: 180px;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+>>>>>>> b422a5cf210479aae0bdec1d093609b8c07c4192
 }
 
 .box-text1 {
