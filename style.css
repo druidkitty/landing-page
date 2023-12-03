@@ -68,7 +68,7 @@ button {
     margin-right: 50px;
 }
 
-img {
+.cat {
     display: block;
     max-width: 500px;
     align-self: center;
@@ -85,10 +85,15 @@ img {
 
 .section2 {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 400px;
+}
+
+.herbs {
+    display: block;
+    width: 100px;
+    height: 100px;
 }
 
 .section3 {
