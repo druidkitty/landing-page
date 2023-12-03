@@ -88,12 +88,22 @@ button {
     justify-content: center;
     align-items: center;
     min-height: 400px;
+    gap: 50px;
+    text-align: center;
+}
+
+.section2title {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: -50px;
 }
 
 .herbs {
     display: block;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
+    border: 5px solid lightblue;
+    border-radius: 5px;
 }
 
 .section3 {
